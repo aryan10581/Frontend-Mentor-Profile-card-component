@@ -1,0 +1,336 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0%;
+  font-family: "Kumbh Sans", sans-serif;
+}
+body {
+  background-color: hsl(185, 75%, 39%);
+  /* background: url("design/bg.png"); */
+  
+  overflow: hidden;
+  height: 100%;
+}
+#bgc{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: -5;
+  top: 0;
+}
+.Container {
+  height: 80vh;
+  width: 80vw;
+/* border: 2px dashed black; */
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.dp {
+  position: absolute;
+  border-radius: 50%;
+  border: 5px solid white;
+  top: 38%;
+}
+.name {
+  background-color: white;
+  width: 22.8%;
+  margin-bottom: -4px;
+  height: 15%;
+  text-align: center;
+}
+.name p {
+  font-size: 18px;
+}
+.name span {
+  color: hsl(0, 0%, 59%);
+  font-weight: 600;
+}
+#name {
+  font-weight: 700;
+  margin-top: 20%;
+}
+#place {
+  font-size: 14px;
+  color: hsl(0, 0%, 59%);
+  font-weight: 500;
+}
+.det {
+  background-color: white;
+  width: 22.8%;
+  text-align: center;
+  height: 15%;
+  border-radius: 0px 0px 20px 20px;
+}
+.upde {
+  font-size: 18px;
+  display: flex;
+  margin-top: 6%;
+  font-weight: 700;
+}
+.upde p {
+  padding-left: 18%;
+}
+.dode {
+  display: flex;
+}
+.dode p {
+  padding-left: 17%;
+  color: hsl(0, 0%, 59%);
+  font-size: 12px;
+}
+#lik {
+  padding-left: 16%;
+}
+#pho {
+  padding-left: 19%;
+}
+.mt{
+  border: 1px solid #ebebeb;
+  margin-top: 8%;
+  background-color: #ebebeb ;
+}
+.cabg{
+  width: 22.8%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+@media screen and (max-width:2560px) {
+  .Container{
+    width: 100vw;
+    height: 100vh;
+  }
+
+}
+@media screen and (max-width:1450px) {
+  .Container{
+    
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  .name{
+    height: 20%;
+  }
+  .dp {
+    left: 46%;
+    top: 35%;
+    width: 7%;
+}
+ 
+}
+@media screen and (max-width:1350px) {
+  .Container{
+    
+    width: 100vw;
+  
+
+  }
+  .name{
+    height: 18%;
+  }
+ 
+}
+@media screen and (max-width:1280px) {
+  .Container{
+   
+    width: 100vw;
+    height: 100vh;
+  }
+  .name{
+    height: 18%;
+  }
+  .dp {
+    left: 45%;
+    top: 38%;
+    width: 8%;
+}
+
+  .name, .cabg, .det{
+    width: 30%;
+  }
+}
+@media screen and (max-width:1000px) {
+  .Container{
+    
+    width: 100vw;
+    height: 100vh;
+  }
+  .name{
+    height: 18%;
+  }
+
+  .name, .cabg, .det{
+    width: 30%;
+  }
+  
+}
+@media screen and (max-width:900px) {
+  .Container{
+    
+    width: 100vw;
+    height: 100vh;
+  }
+  .name{
+    height: 18%;
+  }
+  .dp {
+    left: 45%;
+    top: 38%;
+    width: 10%;
+}
+
+  .name, .cabg, .det{
+    width: 40%;
+  }
+  
+}
+@media screen and (max-width:768px) {
+  .Container{
+    
+    width: 100vw;
+    height: 100vh;
+  }
+  .name{
+    height: 18%;
+  }
+
+  .name, .cabg, .det{
+    width: 60%;
+  }
+  #name{
+    margin-top: 10%;
+    font-size: 24px;
+  }  
+  #place{
+    font-size: 20px;
+  }
+  .mt{
+    margin-top: 2%;
+  }  .dp {
+    left: 43%;
+    top: 36%;
+    width: 15%;
+}
+}
+@media screen and (max-width:650px) {
+  .Container{
+    
+    width: 100vw;
+    height: 100vh;
+  }
+  .name{
+    height: 18%;
+  }
+
+  .name, .cabg, .det{
+    width: 60%;
+  }
+  #name{
+    margin-top: 18%;
+    font-size: 18px;
+  }  
+  #place{
+    font-size: 16px;
+  }
+  .mt{
+    margin-top: 2%;
+  }
+  .dp {
+    left: 43%;
+    top: 37%;
+    width: 17%;
+}
+}
+@media screen and (max-width:450px) {
+  .Container{
+    
+    width: 100vw;
+    height: 100vh;
+  }
+  .name{
+    height: 18%;
+  }
+
+  .name, .cabg, .det{
+    width: 80%;
+  }
+  #name{
+    margin-top: 18%;
+    font-size: 18px;
+  }  
+  #place{
+    font-size: 16px;
+  }
+  .mt{
+    margin-top: 2%;
+  }
+  
+}
+@media screen and (max-width:380px) {
+  .Container{
+    
+    width: 100vw;
+    height: 100vh;
+  }
+  .name{
+    height: 18%;
+  }
+ 
+  .name, .cabg, .det{
+    width: 85%;
+  }
+  #name{
+    margin-top: 18%;
+    font-size: 18px;
+  }  
+  #place{
+    font-size: 16px;
+  }
+  .mt{
+    margin-top: 2%;
+  }
+  .dp {
+    left: 37%;
+    top: 37%;
+    width: 22%;
+}
+}
+@media screen and (max-width:300px) {
+  .Container{
+    
+    width: 100vw;
+    height: 100vh;
+  }
+  .name{
+    height: 18%;
+  }
+ 
+  .name, .cabg, .det{
+    width: 90%;
+  }
+  #name{
+    margin-top: 18%;
+    font-size: 16px;
+  }  
+  #place{
+    font-size: 14px;
+  }
+  .mt{
+    margin-top: 2%;
+  }
+  .upde p{
+    padding-left: 14%;
+    font-size: 16px;
+  }
+  .dode p{
+    padding-left: 8%;
+    font-size: 12px;
+  }
+  #lik{
+    padding-left: 14%;
+  }
+}
+
